@@ -10,7 +10,7 @@ BOOTSTRAP_SERVERS = ["localhost:9092"]
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="R@kuzan19735.",  # Remplace ici
+    password="", xxxxxxxxxxxxxxxxxxxxxx
     database="data_warehouse"
 )
 cursor = db.cursor()
