@@ -8,7 +8,7 @@ app = FastAPI(title="Data Lake Governance API")
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="R@kuzan19735.", 
+    password="xxxxxxxxxxxxxxxxxxxxxxx", 
     database="data_warehouse"
 )
 cursor = db.cursor(dictionary=True)
